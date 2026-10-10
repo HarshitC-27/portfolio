@@ -1,0 +1,83 @@
+#education {
+  max-width: 1000px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.education-card {
+  position: relative;
+  min-height: 300px;
+  overflow: hidden;
+  padding: 32px;
+  border: 1px solid var(--lightest-navy);
+  border-radius: 16px;
+  background-color: var(--light-navy);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.education-card:hover {
+  border-color: var(--green-bright);
+  transform: translateY(-6px);
+}
+
+.education-icon {
+  color: var(--green-bright);
+}
+
+.education-period {
+  margin-top: 30px;
+  color: var(--green-bright);
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+.education-card h3 {
+  max-width: 360px;
+  margin: 10px 0 2px;
+  color: var(--lightest-slate);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.education-degree {
+  color: var(--light-slate);
+  font-size: 19px;
+}
+
+.education-card p {
+  max-width: 420px;
+  margin: 16px 0 0;
+  color: var(--slate);
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.education-count {
+  position: absolute;
+  right: 24px;
+  bottom: -16px;
+  color: rgba(100, 255, 218, 0.06);
+  font-size: 86px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 720px) {
+  #education {
+    padding: 60px 0;
+  }
+
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .education-card {
+    min-height: 270px;
+    padding: 26px;
+  }
+}
