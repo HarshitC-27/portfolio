@@ -4,7 +4,7 @@ Personal portfolio built with React and Vite. It presents Harshit's software eng
 
 ## Live website
 
-[harshitc-27.github.io](https://harshitc-27.github.io)
+[harshitc-27.github.io/portfolio](https://harshitc-27.github.io/portfolio/)
 
 ## Local development
 
