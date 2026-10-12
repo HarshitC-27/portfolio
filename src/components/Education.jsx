@@ -15,7 +15,8 @@ const education = [
     institution: "Indian Institute of Technology Kanpur",
     degree: "Bachelor of Technology",
     period: "2021 — 2025",
-    detail: "",
+    detail:
+      "Led drone-builders, wrangled campus websites, mentored freshmen, spread vaccination awareness—and occasionally swapped debugging for state-level cross-country running.",
   },
 ];
 
