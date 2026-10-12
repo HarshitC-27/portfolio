@@ -7,8 +7,7 @@ const About = () => {
   const one = (
     <p>
       I’m currently pursuing an <b>MBA at IIM Indore</b> after completing my
-      B.Tech at <b>IIT Kanpur</b>, where I also earned a minor in Computer
-      Science and Engineering. Before business school, I worked in software
+      B.Tech at <b>IIT Kanpur</b>. Before business school, I worked in software
       engineering at <b>Zinnia</b> and interned at <b>Amazon</b>.
     </p>
   );
