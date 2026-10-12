@@ -54,7 +54,7 @@ const About = () => {
             <div className="about-photo-frame">
               <img
                 src={aboutPhoto}
-                alt="Harshit smiling during a night out"
+                alt="Harshit smiling while holding a puppy outdoors"
               />
             </div>
           </div>
