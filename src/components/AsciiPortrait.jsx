@@ -147,7 +147,7 @@ const AsciiPortrait = () => {
       buildPortrait();
       render();
     };
-    source.src = `${import.meta.env.BASE_URL}profile.png`;
+    source.src = `${import.meta.env.BASE_URL}profile-v2.png`;
     resizeObserver.observe(container);
     canvas.addEventListener("pointermove", updatePointer);
     canvas.addEventListener("pointerleave", clearPointer);
