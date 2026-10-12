@@ -16,7 +16,7 @@ const education = [
     degree: "Bachelor of Technology",
     period: "2021 — 2025",
     detail:
-      "Led drone-builders, wrangled campus websites, mentored freshmen, spread vaccination awareness—and still found time for cycling, music, and the drums.",
+      "Led drone-builders, wrangled campus websites, mentored freshmen, spread vaccination awareness, and still found time for cycling, music, and the drums.",
   },
 ];
 
